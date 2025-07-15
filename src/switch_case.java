@@ -3,7 +3,7 @@
 public class switch_case {
     public static void main(String[] args) {
 
-        int month_num=12;
+        int month_num=10;
         System.out.println("The month is : ");
         switch (month_num)
         {
@@ -19,6 +19,7 @@ public class switch_case {
             case 10: System.out.println("October"); break;
             case 11: System.out.println("November"); break;
             case 12: System.out.println("December"); break;
+
 
             default: System.out.println("Invalid Month");
 
