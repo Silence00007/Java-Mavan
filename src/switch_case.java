@@ -4,6 +4,7 @@ public class switch_case {
     public static void main(String[] args) {
 
         int month_num=12;
+        System.out.println("The month is : ");
         switch (month_num)
         {
             case 1 :System.out.println("January"); break;
