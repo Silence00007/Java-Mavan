@@ -13,7 +13,20 @@ public class Java_conditiontions {
         }*/
 
 
-        //
+        // Else IF ,categorise the child, young, adult and senior citizen
+        int b=49;
+        if (b>=48)
+        {
+            System.out.println("The person is belongs to the senior citizen Age Group");
+        } else if (b>=28) {
+            System.out.println("The person is belongs to the Adult  Age Group");
+        } else if (b>=15) {
+            System.out.println("The person is belongs to the Young  Age Group");
+        }
+
+        else{
+            System.out.println("The Person is belong to the child Age Group");
+        }
 
     }
 }
