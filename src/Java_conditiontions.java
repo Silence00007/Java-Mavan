@@ -1,3 +1,5 @@
+import java.util.Scanner;
+
 public class Java_conditiontions {
     public  static void main (String [] args)
     {
@@ -26,7 +28,7 @@ public class Java_conditiontions {
 
         else{
             System.out.println("The Person is belong to the child Age Group");
-        }*/
+        }
 
         // using Else if print the week name
 
@@ -47,8 +49,34 @@ public class Java_conditiontions {
             System.out.println("The Name of the Week is SUNDAY");
         } else {
             System.out.println("INVALID WEEK Please enter the number between 1 to 7");
-        }
+        } */
 
+        //Switch Case by using it print week name with Scanner
+
+        Scanner scanner = new Scanner(System.in);
+        System.out.print("Enter the week number (1 to 7): ");
+        int weekday=scanner.nextInt();;
+        switch (weekday)
+        {
+            case 1:
+                System.out.println("MONDAY"); break;
+            case 2:
+                System.out.println("TUSEDAY"); break;
+            case 3:
+                System.out.println("WEDNESDAY"); break;
+            case 4:
+                System.out.println("THURSDAY"); break;
+            case 5:
+                System.out.println("FRIDAY"); break;
+            case 6:
+                System.out.println("SATURDAY"); break;
+            case 7:
+                System.out.println("SUNDAY"); break;
+            default:
+                System.out.println("Please enter the valid week number Between 1 to 7");
+
+        }
+        scanner.close();
 
     }
 }
