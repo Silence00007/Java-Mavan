@@ -108,6 +108,8 @@ public class Scanner_usage {
                 System.out.println("Hello my name is : Champion"); break;
             case "B" :
                 System.out.println("Hi i am : kitty , how are you dear "); break;
+            case "C" :
+                System.out.println("Hello sir i am Gian a fat boy ha ha  !!!!!!!");
         }
 
 
