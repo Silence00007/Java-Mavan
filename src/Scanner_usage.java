@@ -44,7 +44,7 @@ public class Scanner_usage {
             System.out.println("The name of the week is  : SUNDAY");
         } else {
             System.out.println("INVALID WEEK NAME");
-        } */
+        }
 
         //print month name by using switch case and scanner
 
@@ -79,6 +79,35 @@ public class Scanner_usage {
             default:
                 System.out.println("This as an Invalid month please enter the number between 1 to 12");
 
+        }
+
+        // Print the name and his details by using some name to enter by using scaner and using if and else conditionals
+        System.out.println("Enter only A B C and D");
+
+        String name= scanner.nextLine().toUpperCase();
+        if (name.equals("A"))
+        {
+            System.out.println("Hii, i am the elder person of the family , i am APLHA " );
+        } else if (name.equals("B")) {
+            System.out.println("Hii, i am the 2nd elder person of the family , i am BETA ");
+        } else if (name.equals("C")) {
+            System.out.println("Hii, i am the 3rd elder person of the family , i am GAMMA ");
+        } else if (name.equals("D")) {
+            System.out.println("Hii, i am the 4th elder person of the family , i am zeta ");
+        } else if (name.equals("SUDHANSHU")) {
+            System.out.println("hello dear 'SUDHANSHU' welcome to the family group ");
+        }*/
+
+
+        // Print the name and his details by using some name to enter by using scanner and using Switch case conditionals
+        System.out.println("Enter only A B C and D");
+
+        String name= scanner.nextLine().toUpperCase();
+        switch (name) {
+            case "A" :
+                System.out.println("Hello my name is : Champion"); break;
+            case "B" :
+                System.out.println("Hi i am : kitty , how are you dear "); break;
         }
 
 
